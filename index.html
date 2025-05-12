@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografie Urbană</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; padding: 0;
+            background-color: #b8eaff;
+            color: #333;
+        }
+        header {
+            background-color: #212121;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        main {
+            padding: 1rem;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .intro {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.intro h2 {
+    color: #1e90ff;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+        .galerie {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .card p {
+            padding: 0.5rem;
+            background-color: #e8f0fe;
+        }
+        footer {
+            background-color: #212121;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        @media(min-width: 600px) {
+            .galerie {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media(min-width: 900px) {
+            .galerie {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        .highlight {
+    font-style: italic;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #444;
+    margin-top: 10px;
+}
+
+.autor-intro {
+    margin-top: 10px;
+    font-style: italic;
+    color: #333;
+}
+
+.closing {
+    background-color: #f0f8ff;
+    padding: 30px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+    </style>
+</head>
+<body bgcolor="D3FEFF">
+    <header>
+        <h1>Fotografie Urbană</h1>
+        <p>Proiect realizat pentru ASE - Facultatea de Marketing</p>
+    </header>
+    <main>
+        <p class="highlight">
+    Descoperim orașul prin obiectivul camerei – o fotografie pe rând, o poveste la fiecare colț de stradă.
+</p>
+        <section class="intro">
+            <h2>Echipa noastră</h2>
+            <ul>
+                <li><strong>CHIVU Cosmin</strong></li>
+                <li><strong>CHIVULESCU Daria-Ștefania</strong></li>
+                <li><strong>CHIREA Rareș-Ioan</strong></li>
+            </ul>
+            <p>Facultatea de Marketing, Anul 2, Grupa 1725A</p>
+        </section>
+
+        <section>
+            <h2>Galeria noastră urbană</h2>
+<p>
+    Aici sunt capturate momente spontane, culori vibrante și geometrii ascunse care fac parte din viața urbană.
+    Fiecare imagine reflectă un loc, o emoție și o privire personală asupra orașului.
+</p>
+            <div class="galerie">
+                <div class="card">
+                    <img src="poza1.jpg" alt="Fotografie Cosmin">
+                    <p><strong>Locație:</strong> București, România<br><strong>Autor:</strong> CHIVU Cosmin</p>
+                </div>
+                <div class="card">
+                    <img src="poza2.png" alt="Fotografie Cosmin">
+                    <p><strong>Locație:</strong> Piața Universității, București, România<br><strong>Autor:</strong> CHIVU Cosmin</p>
+                </div>
+                <div class="card">
+                    <img src="poza3.png" alt="Fotografie Cosmin">
+                    <p><strong>Locație:</strong> Zona Corporate Aviației<br><strong>Autor:</strong> CHIVU Cosmin</p>
+                </div>
+                <div class="card">
+                    <img src="poza4.jpg" alt="Fotografie Daria">
+                    <p><strong>Locație:</strong> Amsterdam, Olanda<br><strong>Autor:</strong> CHIVULESCU Daria-Ștefania</p>
+                </div>
+                <div class="card">
+                    <img src="poza5.jpg" alt="Fotografie Daria">
+                    <p><strong>Locație:</strong> Zaanse Schans, Olanda <br><strong>Autor:</strong> CHIVULESCU Daria-Ștefania</p>
+                </div>
+                <div class="card">
+                    <img src="poza6.jpg" alt="Fotografie Daria">
+                    <p><strong>Locație:</strong> Amsterdam Centru, Olanda<br><strong>Autor:</strong> CHIVULESCU Daria-Ștefania</p>
+                </div>
+                <div class="card">
+                    <img src="poza7.jpg" alt="Fotografie Rareș">
+                    <p><strong>Locație:</strong> București, România<br><strong>Autor:</strong> CHIREA Rareș-Ioan</p>
+                </div>
+                <div class="card">
+                    <img src="poza8.png" alt="Fotografie Rareș">
+                    <p><strong>Locație:</strong> Paros, Grecia<br><strong>Autor:</strong> CHIREA Rareș-Ioan</p>
+                </div>
+                <div class="card">
+                    <img src="poza9.jpg" alt="Fotografie Rareș">
+                    <p><strong>Locație:</strong> Calea Victoriei, București, România<br><strong>Autor:</strong> CHIREA Rareș-Ioan</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="intro">
+    <h2>Pasiunea noastră pentru fotografia urbană</h2>
+    <p>
+        Fotografia urbană ne inspiră să descoperim frumusețea ascunsă în colțurile orașelor. 
+        Fiecare clădire, reflexie sau stradă aglomerată spune o poveste, iar prin lentilele noastre 
+        încercăm să surprindem aceste momente unice. Pentru noi, fotografia nu este doar o activitate, 
+        ci o formă de explorare și exprimare.
+    </p>
+    
+</section>
+<section class="closing">
+    <h3>Ai o fotografie urbană preferată?</h3>
+    <p>Spune-ne ce te inspiră în orașul tău! Lasă-ne un mesaj sau distribuie imaginile tale folosind hashtagul <strong>#UrbanVibesASE</strong>.</p>
+</section>
+    <footer>
+        <p>&copy; 2025 Proiect Fotografie Urbană - ASE Marketing</p>
+    </footer>
+</body>
+</html>
